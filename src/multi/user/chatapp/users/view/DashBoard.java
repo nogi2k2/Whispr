@@ -1,5 +1,7 @@
 package multi.user.chatapp.users.view;
 
-public class DashBoard {
+import javax.swing.JFrame;
+public class DashBoard extends JFrame{
+    public DashBoard(String userid){}
     
 }
