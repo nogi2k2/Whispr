@@ -152,7 +152,7 @@ public class UserDetails extends JFrame{
 
         passwordFieldText = new JPasswordField();
         passwordFieldText.setHorizontalAlignment(SwingConstants.CENTER);
-        passwordField.setText("●●●●●●●");
+        passwordFieldText.setText(".......");
         passwordFieldText.setBackground(new Color(255, 255, 255));
         passwordFieldText.setBorder(new LineBorder(new Color(0, 0, 0)));
         passwordFieldText.setBounds(139, 189, 232, 26);
@@ -223,6 +223,7 @@ public class UserDetails extends JFrame{
         updateUserId.setBounds(254, 138, 117, 29);
         contentPane.add(updateUserId);
 
+        frame.setContentPane(contentPane);
         frame.setVisible(true);
     }
 }

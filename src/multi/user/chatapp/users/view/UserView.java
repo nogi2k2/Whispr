@@ -144,7 +144,7 @@ public class UserView {
         });
         userViewFrame.getContentPane().add(register);
 
-        ImageIcon i1 = new ImageIcon(UserView.class.getResource("assets/UserLogin.png"));
+        ImageIcon i1 = new ImageIcon(UserView.class.getResource("/assets/UserLogin.png"));
         JLabel img = new JLabel(i1);
         img.setHorizontalAlignment(SwingConstants.CENTER);
         img.setBounds(456, 27, 250, 275);

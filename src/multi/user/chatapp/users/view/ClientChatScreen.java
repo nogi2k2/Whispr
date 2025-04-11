@@ -8,7 +8,6 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JScrollPane;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import java.net.UnknownHostException;
