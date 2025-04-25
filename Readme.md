@@ -94,42 +94,52 @@ The application follows a modular client-server architecture, enabling real-time
     - Main Chat Dashboard with options for entering chat window, viewing user details and exiting app
     - Chat window with a message nput field to send and display messages
 
----
-
 
 ---
 
 ## 🖼️ Screenshots
 
 ### 📝 Registration Window
-**Form interface for new user registration using Java Swing, capturing credentials and storing them in MySQL via JDBC.**
+**Form interface for new user registration using Java Swing, capturing credentials and storing them in MySQL.**
 
+<p align="center">
 <<img src="readme_refs/signup_window.png" width="700" alt="Registration Window">
+</p>
 
 ### 🔐 Login Window
 **Login screen with Swing-based input fields, authenticating user credentials through the database using JDBC.**
 
+<p align="center">
 <img src="readme_refs/login_window.png" width="700" alt="Login Window">
+</p>
 
 ### 🏠 Main Dashboard
 **Home screen after successful login, displaying the gateway to public chats.**
 
+<p align="center">
 <img src="readme_refs/dashboard.png" width="700" alt="Dashboard">
+</p>
 
 ### 👤 User Details Window
 **Displays the username, password and userid of the currently logged-in user, with an option to change them.**
 
+<p align="center">
 <img src="readme_refs/user_details.png" width="700" alt="User Details Window">
+</p>
 
 ### 💬 Chat Window
 **Chat interface supporting public and private conversations, built using Swing panels, text areas, and socket streams for real-time communication.**
 
+<p align="center">
 <img src="readme_refs/chat_screen.png" width="700" alt="Chat Window">
+</p>
 
 ### 📢 Broadcasting Messages to All Users
 **A demo showing real-time broadcasting of messages across three users, each running their own client instance, with synchronized delivery via the server.**
 
+<p align="center">
 <img src="readme_refs/msg_broadcasting.png" width="700" alt="Message Broadcast Demo">
+</p>
 
 ---
 
