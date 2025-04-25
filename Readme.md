@@ -97,7 +97,7 @@ The application follows a modular client-server architecture, enabling real-time
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Visual Demo
 
 ### 📝 Registration Window
 **Form interface for new user registration using Java Swing, capturing credentials and storing them in MySQL.**
